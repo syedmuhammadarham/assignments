@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+    background-color: #f9f9f9;
+  }
+  
+  .poem-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #e91e63;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .poem p {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-indent: 40px;
+  }

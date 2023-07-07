@@ -1,0 +1,18 @@
+body {
+    font-family: arial;
+    background-color: rgb(185, 179, 175);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.7);}
+
+h1 {
+    font-size: 250%;
+}
+div {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(89, 88, 92);
+    padding: 10px;
+}

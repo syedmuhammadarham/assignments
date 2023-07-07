@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+    <table cellspacing="10" cellpadding="0" align="center">
+        <tbody align="center">
+            <h1 style="color: white;" align="center"><u>Registration Form</u></h1>
+            <tr>
+                <td>
+                    <p><b>Full Name</b></p>
+                    <input type="text" name="fullname" size="25" maxlength="30" placeholder="Ex: Syed Muhammad Arham" />
+                </td>
+                <td>
+
+                    <p><b>Date of birth</b></p>
+                    <input type="date" name="DOB" size="30" maxlength="30" placeholder="Ex: Syed Muhammad Arham" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <p><b>CNIC</b></p>
+                    <input type="tel" name="cnic" size="20" maxlength="14" placeholder="Ex: 42101XXXXXXX">
+                </td>
+                <td>
+                    <p><b>Mobile</b></p>
+                    <input type="tel" name="mobilenumber" size="20" maxlength="11" placeholder="Ex: 0323XXXXX">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Higest Qualification</b></p>
+                    <select name="qualification">
+                        <option value="matric">Matric</option>
+                        <option value="intermediate">Intermediaten</option>
+                        <option value="aolevels">A-O levels</option>
+                        <option value="graduation">Graduation</option>
+                        <option value="bachelor">Bachelors</option>
+                        <option value="master">Masters</option>
+                        <option value="mphill">Mphill</option>
+                        <option value="phd">Phd</option>
+                    </select>
+                </td>
+                <td>
+                    <p><b>Address</b></p>
+                    <input type="text" name="address" size="20" placeholder="Your address here">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Email</b></p>
+                    <input type="text" name="email" placeholder="Ex: 123@gmail.com" size="30">
+                </td>
+                <td>
+                    <p><b>Enter your password</b></p>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Employment Status</b></p>
+                    <input type="checkbox" name="employmentstatus" value="student" /> Student
+                    <input type="checkbox" name="employmentstatus" value="employed" /> Employed <br />
+                    <input type="checkbox" name="employmentstatus" value="unemployed" /> Unemployed
+                </td>
+                <td>
+                    <p><b>From where you hear about us?</b></p>
+                    <textarea name="comment" cols="25" rows="4">Enter your comment</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><b>Gender</b></p>
+                    <input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female" />Female
+                </td>
+                <td>
+                    <p><b>Upload Your Documets in PDF format</b></p>
+                    <input type="file" name="resume"> <br />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="Submit" value="Submit" align="center"></td>
+                <td>
+                    <p><b>Subscribe to our newsletter.</b></p><input type="text" name="email"><br /><input type="image"
+                        src="suscribe-button-icon_617585-1096.png" width="130" height="45"></p>
+                </td>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
